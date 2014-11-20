@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
 # hw
 PRODUCT_COPY_FILES += \
     vendor/lge/e730/proprietary/camera/camera.victor.so:system/lib/hw/camera.victor.so \
-    vendor/lge/e730/proprietary/hw/lights.victor.so:system/lib/hw/lights.victor.so \
     vendor/lge/e730/proprietary/hw/sensors.victor.so:system/lib/hw/sensors.victor.so \
     vendor/lge/e730/proprietary/hw/sensors.default.so:system/lib/hw/sensors.default.so
 # libs
