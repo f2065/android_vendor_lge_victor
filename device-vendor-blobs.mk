@@ -127,11 +127,11 @@ PRODUCT_COPY_FILES += \
 
 # sbin/xbin
 PRODUCT_COPY_FILES += \
-    vendor/lge/e730/proprietary/sbin/chargerlogo:/sbin/chargerlogo \
-    vendor/lge/e730/proprietary/sbin/wallpaper:/sbin/wallpaper
+    vendor/lge/e730/proprietary/sbin/chargerlogo:root/sbin/chargerlogo \
+    vendor/lge/e730/proprietary/sbin/wallpaper:root/sbin/wallpaper
 # gps
 PRODUCT_COPY_FILES += \
-    vendor/lge/e730/proprietary/etc/gps.conf:/system/etc/gps.conf
+    vendor/lge/e730/proprietary/etc/gps.conf:system/etc/gps.conf
 # firmware
 PRODUCT_COPY_FILES += \
     vendor/lge/e730/proprietary/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
